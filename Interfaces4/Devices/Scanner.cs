@@ -2,7 +2,7 @@
 
 namespace Interfaces4.Devices
 {
-    internal class Scanner : Device
+    internal class Scanner : Device, IScanner
     {
         public override void ProcessDoc(string document)
         {
